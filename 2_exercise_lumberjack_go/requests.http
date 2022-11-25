@@ -1,0 +1,12 @@
+GET http://localhost:8080/cars
+###
+POST http://localhost:8080/newCar
+Content-Type: application/json
+
+//{
+//  "id": "4",
+//  "make": "hummer",
+//  "price": "34000"
+//}
+###
+GET http://localhost:8080/getCarById/1
